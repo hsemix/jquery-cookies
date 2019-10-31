@@ -3,6 +3,11 @@ This library helps you in managing browser cookies, for those that have tried to
 
 ## Usage
 
-`js
+```javascript
 
+// storing
 $.cookie('cookie-name', 'value');
+
+// Getting from storage
+
+var data = $.cookie('cookie-name');
